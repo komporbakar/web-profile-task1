@@ -72,7 +72,15 @@ main {
 
 /* ////////////////// */
 .card-content {
-    @apply text-center rounded-[20px] items-center lg:px-5 px-4  min-h-full min-w-full
+    @apply text-center rounded-[20px] items-center lg:px-5 px-4  min-h-full min-w-full hover:border hover:border-primary
+}
+
+.card-content-resume {
+    @apply text-center rounded-[20px] items-center lg:px-5 px-4  hover:border hover:border-primary
+}
+
+.card-content-resume p {
+    text-align: start;
 }
 
 .card-content .title {
